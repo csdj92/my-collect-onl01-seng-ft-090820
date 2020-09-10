@@ -11,11 +11,13 @@ def my_collect(array)
   end
 
 
-my_collect(student) do |student|
+def my_collect(students) do |student|
   student.split(" ").first
+end
 end
 
 
-my_collect(language) do |language|
+def my_collect(language) do |language|
   language.upcase
+end
 end
