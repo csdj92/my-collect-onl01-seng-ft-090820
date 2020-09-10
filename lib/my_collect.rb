@@ -2,12 +2,12 @@ require "pry"
 
 def my_collect(array)
   i=0
-  array = []
-   while i < collection.length
-   array << (yield array[i])
+  array_new = []
+   while i < collection.size
+   array << yield (array[i])
     i += 1
   end
-   array
+   array_new
   end
 
 
@@ -15,7 +15,7 @@ def my_collect(students)
  i=0
   students.split(" ").first = []
    while i < students.length
-   students << (yield students[i])
+   students << yield (students[i])
     i += 1
   end
    students
@@ -26,7 +26,7 @@ def my_collect(language)
    i=0
   language = []
    while i < language.length
-   language << (yield language[i])
+   language << yield (language[i])
     i += 1
   end
    language
