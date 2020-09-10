@@ -11,7 +11,7 @@ def my_collect(array)
   end
 
 
-def my_collect1(students) 
+def my_collect(students) 
  i=0
   students.split(" ").first = []
    while i < students.length
@@ -22,7 +22,7 @@ def my_collect1(students)
   end 
 
 
-def my_collect2(language) 
+def my_collect(language) 
    i=0
   language = []
    while i < language.length
