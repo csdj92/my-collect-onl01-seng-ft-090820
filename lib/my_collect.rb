@@ -11,10 +11,8 @@ def my_collect(array)
   end
 
 
-def my_collect(students) do |student|
-  student.split(" ").first
-end
-end
+def my_collect(students) 
+  
 
 
 def my_collect(language) do |language|
