@@ -3,7 +3,7 @@ require "pry"
 def my_collect(array)
   i=0
   array = []
-   while i < array.length
+   while i < collection.length
    array << (yield array[i])
     i += 1
   end
