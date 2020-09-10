@@ -23,3 +23,11 @@ def my_collect(students)
 
 
 def my_collect(language) 
+   i=0
+  language = []
+   while i < language.length
+   language << yield(language[i])
+    i += 1
+  end
+   language
+  end 
