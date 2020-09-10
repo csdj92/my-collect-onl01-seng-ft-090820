@@ -24,7 +24,7 @@ def my_collect(students)
 
 def my_collect(language) 
    i=0
-  language.upcase = []
+  language = []
    while i < language.length
    language << yield(language[i])
     i += 1
