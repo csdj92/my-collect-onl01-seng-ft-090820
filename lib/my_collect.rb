@@ -13,7 +13,7 @@ def my_collect(array)
 
 def my_collect(students) 
  i=0
-  students = []
+  students.split(" ").first = []
    while i < students.length
    students << yield(students[i])
     i += 1
@@ -24,7 +24,7 @@ def my_collect(students)
 
 def my_collect(language) 
    i=0
-  language = []
+  language.upcase = []
    while i < language.length
    language << yield(language[i])
     i += 1
