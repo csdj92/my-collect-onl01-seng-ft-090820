@@ -12,7 +12,14 @@ def my_collect(array)
 
 
 def my_collect(students) 
-  
+ i=0
+  students = []
+   while i < students.length
+   students << yield(students[i])
+    i += 1
+  end
+   students
+  end 
 
 
 def my_collect(language) do |language|
