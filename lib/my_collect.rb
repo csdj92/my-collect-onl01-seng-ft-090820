@@ -11,7 +11,7 @@ def my_collect(array)
   end
 
 
-my_collect(students) do |student|
+my_collect(student) do |student|
   student.split(" ").first
 end
 
